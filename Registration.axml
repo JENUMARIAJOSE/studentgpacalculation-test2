@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	>
+	<TextView
+		android:text="Registration Form"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView1" 
+	android:gravity="center"
+	android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+	
+<LinearLayout 
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_marginTop="30dp">
+
+		<TextView
+			android:text="First Name:"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:minWidth="60dp"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			/>
+		<EditText
+			android:layout_width="218.0dp"
+			android:layout_height="wrap_content"
+			android:hint="Write your First Name"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:id="@+id/fName" 
+		android:paddingLeft="30dp"/>
+
+	</LinearLayout>
+	<LinearLayout 
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		>
+
+		<TextView
+			android:text="Last Name"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:minWidth="60dp"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			/>
+		<EditText
+			android:layout_width="218.0dp"
+			android:layout_height="wrap_content"
+			android:hint="Write your Last Name"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:id="@+id/lName" 
+		android:paddingLeft="30dp"/>
+
+	</LinearLayout>
+	<LinearLayout 
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		>
+
+		<TextView
+			android:text="Student ID:"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:minWidth="60dp"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			/>
+		<EditText
+			android:layout_width="218.0dp"
+			android:layout_height="wrap_content"
+			android:hint="Write your student ID"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:id="@+id/id"
+			android:paddingLeft="30dp"
+			android:inputType="number"/>
+
+	</LinearLayout>
+	
+	<Button
+		android:text="save to list"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/savebtn" />
+	<Button
+		android:text="go back"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/goback" />
+	
+	
+</LinearLayout>

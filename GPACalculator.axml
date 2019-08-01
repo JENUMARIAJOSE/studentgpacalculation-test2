@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<TextView
+		android:text="GPA Calculator"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:paddingBottom="18dp"
+		android:textColor="@android:color/holo_red_dark"
+		android:textAppearance="?android:attr/textAppearanceMedium"/>
+	<TableLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/tableLayout1">
+		<TableRow
+			android:id="@+id/tableRow1"
+			android:paddingBottom="13dp">
+			<TextView
+				android:text="Course Name"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="3" 
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textColor="@android:color/holo_red_dark"/>
+			<TextView
+				android:text="Course ID"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:paddingRight="50dp"
+				android:layout_weight="1"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textColor="@android:color/holo_red_dark"/>
+			<TextView
+				android:text="Grade"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textColor="@android:color/holo_red_dark"/>
+		</TableRow>
+		<TableRow
+			android:id="@+id/tableRow2">
+			<TextView
+				android:textColor="#000"
+				android:text="programming c#"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="3" 
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:paddingLeft="5dp"
+				/>
+			<TextView
+				android:textColor="#000"
+				android:text="CSD 4304"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:paddingRight="50dp"
+				android:layout_weight="1"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				/>
+			<EditText
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/mark1"
+				android:layout_weight="1"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:inputType="number"/>
+		</TableRow>
+		<TableRow
+			android:id="@+id/tableRow3">
+			<TextView
+				android:textColor="#000"
+				android:text="programming java"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="3" 
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				
+				android:paddingLeft="5dp"/>
+			<TextView
+				android:textColor="#000"
+				android:text="CSD 5303"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:paddingRight="50dp"
+				android:layout_weight="1"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				/>
+			<EditText
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/mark2"
+				android:layout_weight="1"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:inputType="number"/>
+		
+		</TableRow>
+		<TableRow
+			android:id="@+id/tableRow4">
+			<TextView
+				android:textColor="#000"
+				android:text="program python"
+				android:layout_width="170.5dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="3"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				
+				android:paddingLeft="5dp"/>
+			<TextView
+				android:textColor="#000"
+				android:text="CSD 6302"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:paddingRight="50dp"
+				android:layout_weight="1"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				/>
+			<EditText
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/mark3"
+				android:layout_weight="1"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:inputType="number"/>
+		
+		</TableRow>
+		<TableRow
+			android:id="@+id/tableRow5">
+			<TextView
+				android:textColor="#000"
+				android:text="programming c++"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="3" 
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:paddingLeft="5dp"/>
+			<TextView
+				android:textColor="#000"
+				android:text="CSD 7303"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:paddingRight="50dp"
+				android:layout_weight="1"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				/>
+			<EditText
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/mark4"
+				android:layout_weight="1"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:inputType="number"/>
+		</TableRow>
+		<TableRow
+			android:id="@+id/tableRow6">
+			<TextView
+				android:textColor="#000"
+				android:text="programming c"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="3" 
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				
+				android:paddingLeft="5dp"/>
+			<TextView
+				android:textColor="#000"
+				android:text="CSD 8301"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:paddingRight="50dp"
+				android:layout_weight="1"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				/>
+			<EditText
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/mark5"
+				android:layout_weight="1"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:inputType="number"/>
+		
+		</TableRow>
+	</TableLayout>
+	<Button
+		android:text="calculate gpa"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/gpaCa" />
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/gpa"
+		android:textAppearance="?android:attr/textAppearanceLarge"/>
+	<Button
+		android:text="go back"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/goBack" 
+	android:layout_gravity="bottom"/>
+	
+</LinearLayout>
